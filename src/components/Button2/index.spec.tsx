@@ -15,7 +15,7 @@ describe('<Button>', () => {
         expect(buttonTextElement).toBeInTheDocument(); 
     }); 
 
-    it(`should render 'carregando..' text when isloading was passed`, () => {
+    it(`should render the button with background color green by default`, () => {
         const { getByRole } = render (<Button isLoading>button</Button>); 
 
         const buttonElement = getByRole('button'); 
