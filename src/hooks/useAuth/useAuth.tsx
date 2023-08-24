@@ -13,7 +13,7 @@ export const useAuth = () => {
    
     const isAuthenticated = !!user; 
 
-    const login = ({login, password}) => {
+    const login = ({login, password}: any ) => {
         //try .. catch
         //axios.post('/...', {login,password})
 
