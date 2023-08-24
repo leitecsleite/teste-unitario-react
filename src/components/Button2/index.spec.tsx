@@ -6,7 +6,6 @@ describe('<Button>', () => {
     it('should render button', () => {
         const { getByText, getByRole } = render(<Button>button</Button>); 
 
-        // eslint-disable-next-line testing-library/prefer-screen-queries
         const buttonElement = getByRole('button'); 
         const buttonTextElement = getByText('button'); 
 
